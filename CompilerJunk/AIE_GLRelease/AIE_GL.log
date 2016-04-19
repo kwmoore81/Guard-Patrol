@@ -1,28 +1,9 @@
-﻿Build started 4/18/2016 3:16:21 PM.
-     1>Project "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\AIE_GL.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glew\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glfw3\include\GLFW\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\\" /Fd"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\AIE_GL.pdb" /Gd /TP /analyze- /errorReport:prompt source\Application.cpp source\Font.cpp source\Input.cpp source\lodepng.cpp source\RenderTexture.cpp source\SpriteBatch.cpp source\SpriteBatch_GL3.cpp source\Texture.cpp
-         Application.cpp
-         Font.cpp
-         Input.cpp
-         lodepng.cpp
-         RenderTexture.cpp
-         SpriteBatch.cpp
-         SpriteBatch_GL3.cpp
-         Texture.cpp
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\bin\AIE_GL.lib" OpenGL32.lib glew32.lib glfw3.lib /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glew\lib\Release\Win32\\" /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glfw3\lib-vc2015\\" /NOLOGO /LTCG "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\Application.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\Font.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\Input.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\lodepng.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\RenderTexture.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\SpriteBatch.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\SpriteBatch_GL3.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\AIE_GLRelease\Texture.obj"
-     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenGL32.lib(OPENGL32.dll); second definition ignored
-         AIE_GL.vcxproj -> C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\bin\AIE_GL.lib
-     1>Done Building Project "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\AIE_GL.vcxproj" (Build target(s)).
+﻿Build started 4/19/2016 9:29:26 AM.
+     1>Project "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\AIE_GL\AIE_GL.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         AIE_GL.vcxproj -> C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\AIE_GL\bin\AIE_GL.lib
+     1>Done Building Project "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\AIE_GL\AIE_GL.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.00
+Time Elapsed 00:00:00.03

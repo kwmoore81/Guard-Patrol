@@ -4,7 +4,7 @@
 //	Updated by: Richard Stern
 //	Date : 16/4/2015
 //--------
-
+#include "vec2.h"
 #ifndef AGENT_H
 #define AGENT_H
 
@@ -29,16 +29,19 @@ struct MovementInfo
 {
 	float m_positionX;
 	float m_positionY;
-
+	vec2 m_position = { m_positionX, m_positionY };
+	
 	float m_velocityX;
 	float m_velocityY;
-
+	vec2 m_velocity = { m_velocityX, m_velocityY };
+	
 	float m_accelerationX;
 	float m_accelerationY;
-
+	//vec2 m_acceleration = { m_accelerationX, m_accelerationY };
+	
 	float m_maxSpeed;
 	float m_maxForce;
-
+	
 	float m_rotation;
 	float m_rotationDampening;
 };
@@ -87,6 +90,8 @@ private:
 	void Agent::Patrol();
 	void Agent::Search();
 	void Agent::Health();
+
+	void Wander(float radius, float jitter, float distance, float weight = 1);
 
 	bool searching = false;
 	float searchTimer = 0.0f;

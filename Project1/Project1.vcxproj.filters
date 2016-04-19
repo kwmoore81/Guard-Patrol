@@ -24,12 +24,18 @@
     <ClCompile Include="source\Agent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Game1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vec2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

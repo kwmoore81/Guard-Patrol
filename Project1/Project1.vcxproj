@@ -90,10 +90,12 @@
     <ClCompile Include="source\Agent.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\Game1.cpp" />
+    <ClCompile Include="source\vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Agent.h" />
     <ClInclude Include="include\Game1.h" />
+    <ClInclude Include="include\vec2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

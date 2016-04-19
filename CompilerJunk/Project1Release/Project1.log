@@ -1,23 +1,23 @@
-﻿Build started 4/18/2016 5:25:44 PM.
-     1>Project "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/19/2016 4:30:25 PM.
+     1>Project "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Project1\Project1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glfw3\include\GLFW\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glew\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Project1\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glm\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\Project1Release\\" /Fd"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\Project1Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt source\Agent.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\AIE_GL\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\libraries\glfw3\include\GLFW\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\libraries\glew\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Project1\include\\" /I"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\libraries\glm\\" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\\" /Fd"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt source\Agent.cpp
          Agent.cpp
-     1>source\Agent.cpp(99): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-     1>source\Agent.cpp(101): warning C4305: '=': truncation from 'double' to 'float'
-     1>source\Agent.cpp(102): warning C4305: '=': truncation from 'double' to 'float'
+     1>source\Agent.cpp(99): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>source\Agent.cpp(100): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Compiled\Project1Release\Project1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\AIE_GL\bin\\" /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glew\lib\Release\Win32\\" /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\libraries\glfw3\lib-vc2015\\" OpenGL32.lib AIE_GL.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Compiled\Project1Release\Project1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Compiled\Project1Release\Project1.lib" /MACHINE:X86 /SAFESEH "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\Project1Release\Agent.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\Project1Release\main.obj"
-         "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\CompilerJunk\Project1Release\Game1.obj"
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Compiled\Project1Release\Project1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\AIE_GL\bin\\" /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\libraries\glew\lib\Release\Win32\\" /LIBPATH:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\libraries\glfw3\lib-vc2015\\" OpenGL32.lib AIE_GL.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Compiled\Project1Release\Project1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Compiled\Project1Release\Project1.lib" /MACHINE:X86 /SAFESEH "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\Agent.obj"
+         "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\main.obj"
+         "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\Game1.obj"
+         "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\CompilerJunk\Project1Release\vec2.obj"
          Generating code
-         2 of 1171 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+         2 of 1183 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
            0 functions were new in current compilation
-           2 functions had inline decision re-evaluated but remain unchanged
+           1 functions had inline decision re-evaluated but remain unchanged
          Finished generating code
-         Project1.vcxproj -> C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Compiled\Project1Release\Project1.exe
-     1>Done Building Project "C:\Users\kevin.moore\Documents\GitHub\Guard Patrol Project\Guard Patrol\Project1\Project1.vcxproj" (Build target(s)).
+         Project1.vcxproj -> C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Compiled\Project1Release\Project1.exe
+     1>Done Building Project "C:\Users\kevin.moore\Documents\GitHub\Guard-Patrol\Project1\Project1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:00.80
